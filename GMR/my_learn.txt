@@ -1,0 +1,16 @@
+conda创建的虚拟环境
+进入虚拟环境：conda activate gmr
+推出虚拟环境：conda deactivate
+
+使用：
+1.BVH to robot
+cd ~/GMR
+python scripts/bvh_to_robot.py --bvh_file ./lafan1/xxx.bvh --robot unitree_g1 --save_path ./motions/G1/pkl/xxx.pkl --rate_limit --format lafan1
+python pkl_to_csv.py   
+
+
+2.GHVMR to robot 
+首先需要将视频，通过GVHMR转为hmr4d_results.pt
+cd ~/GMR 
+python scripts/gvhmr_to_robot.py --gvhmr_pred_file ./gvhmr_to_robot/xxx.pt --robot unitree_g1 --record_video --rate_limit --save_path ./motions/G1/pkl/xxx.pkl
+python pkl_to_csv.py  
