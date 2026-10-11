@@ -1,3 +1,10 @@
+
 videos/
 motions/
 body_models/
+=======
+__pycache__/
+*egg-info/
+unitree_rl_mjlab/
+GVHMR/inputs/
+*.STL

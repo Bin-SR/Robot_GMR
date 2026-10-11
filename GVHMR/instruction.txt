@@ -1,0 +1,21 @@
+conda环境：
+conda activate gvhmr
+
+报错：
+1.在pip install -r requirements.txt时
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "<string>", line 9, in <module>
+      ModuleNotFoundError: No module named 'pip'  
+      During handling of the above exception, another exception occurred:    
+      Traceback (most recent call last):
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'chumpy' when getting requirements to build wheel
+解决：
+pip install setuptools wheel
+pip install chumpy --no-build-ioslation
+pip install -r requirements.txt
