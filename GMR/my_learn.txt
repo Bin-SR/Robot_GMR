@@ -14,3 +14,8 @@ python pkl_to_csv.py
 cd ~/GMR 
 python scripts/gvhmr_to_robot.py --gvhmr_pred_file ./gvhmr_to_robot/xxx.pt --robot unitree_g1 --record_video --rate_limit --save_path ./motions/G1/pkl/xxx.pkl
 python pkl_to_csv.py  
+
+
+
+关于x1的pkl转csv：脚本为pkl_to_csv_x1.py
+python pkl_to_csv_x1.py --pkl ./motion/x1/pkl/xxx.pkl --csv ./motion/x1/csv/xxx.csv (--xml 默认xyber_x1_serial.xml)
