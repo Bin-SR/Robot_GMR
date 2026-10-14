@@ -9,7 +9,7 @@ motions/
 body_models/
 
 # Unitree RL
-unitree_rl_mjlab/
+
 
 # GVHMR inputs
 GVHMR/inputs/
@@ -20,3 +20,5 @@ GVHMR/inputs/
 # Video files
 
 .vscode
+wandb/
+logs/
