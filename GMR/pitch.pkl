@@ -1,0 +1,106 @@
+xrobotoolkit_sdk not found, skip for now. If you do not use XRobotStreamer, it's fine.
+Use robot model:  
+/home/si/Robot_GMR/GMR/general_motion_retargeting/../assets/x1/mjcf/robot/xyber_x1/xyber_x1_serial.xml
+[GMR] Robot Degrees of Freedom (DoF) names and their order:
+DoF 0: floating_base
+DoF 1: floating_base
+DoF 2: floating_base
+DoF 3: floating_base
+DoF 4: floating_base
+DoF 5: floating_base
+DoF 6: body_yaw
+DoF 7: body_roll
+DoF 8: body_pitch
+DoF 9: left_shoulder_pitch
+DoF 10: left_shoulder_roll
+DoF 11: left_shoulder_yaw
+DoF 12: left_elbow_pitch
+DoF 13: left_elbow_yaw
+DoF 14: left_wrist_pitch
+DoF 15: left_wrist_roll
+DoF 16: right_shoulder_pitch
+DoF 17: right_shoulder_roll
+DoF 18: right_shoulder_yaw
+DoF 19: right_elbow_pitch
+DoF 20: right_elbow_yaw
+DoF 21: right_wrist_pitch
+DoF 22: right_wrist_roll
+DoF 23: left_hip_pitch
+DoF 24: left_hip_roll
+DoF 25: left_hip_yaw
+DoF 26: left_knee_pitch
+DoF 27: left_ankle_pitch
+DoF 28: left_ankle_roll
+DoF 29: right_hip_pitch
+DoF 30: right_hip_roll
+DoF 31: right_hip_yaw
+DoF 32: right_knee_pitch
+DoF 33: right_ankle_pitch
+DoF 34: right_ankle_roll
+[GMR] Robot Body names and their IDs:
+Body ID 0: world
+Body ID 1: x1-body
+Body ID 2: body_yaw
+Body ID 3: body_roll
+Body ID 4: body_pitch
+Body ID 5: left_shoulder_pitch
+Body ID 6: left_shoudler_roll
+Body ID 7: left_shoulder_yaw
+Body ID 8: left_elbow_pitch
+Body ID 9: left_elbow_yaw
+Body ID 10: left_wrist_pitch
+Body ID 11: left_wrist_roll
+Body ID 12: right_shoulder_pitch
+Body ID 13: right_shoulder_roll
+Body ID 14: right_shoulder_yaw
+Body ID 15: right_elbow_pitch
+Body ID 16: right_elbow_yaw
+Body ID 17: right_wrist_pitch
+Body ID 18: right_wrist_roll
+Body ID 19: left_hip_pitch_link
+Body ID 20: left_hip_roll_link
+Body ID 21: left_hip_yaw_link
+Body ID 22: left_knee_pitch_link
+Body ID 23: left_ankle_pitch_link
+Body ID 24: left_ankle_roll_link
+Body ID 25: right_hip_pitch_link
+Body ID 26: right_hip_roll_link
+Body ID 27: right_hip_yaw_link
+Body ID 28: right_knee_pitch_link
+Body ID 29: right_ankle_pitch_link
+Body ID 30: right_ankle_roll_link
+[GMR] Robot Motor (Actuator) names and their IDs:
+Motor ID 0: motor_body_pitch
+Motor ID 1: motor_body_yaw
+Motor ID 2: motor_body_roll
+Motor ID 3: motor_left_shoulder_pitch
+Motor ID 4: motor_left_shoulder_roll
+Motor ID 5: motor_left_shoulder_yaw
+Motor ID 6: motor_left_elbow_pitch
+Motor ID 7: motor_left_elbow_yaw
+Motor ID 8: motor_left_wrist_pitch
+Motor ID 9: motor_left_wrist_roll
+Motor ID 10: motor_right_shoulder_pitch
+Motor ID 11: motor_right_shoulder_roll
+Motor ID 12: motor_right_shoulder_yaw
+Motor ID 13: motor_right_elbow_pitch
+Motor ID 14: motor_right_elbow_yaw
+Motor ID 15: motor_right_wrist_pitch
+Motor ID 16: motor_right_wrist_roll
+Motor ID 17: motor_left_hip_pitch
+Motor ID 18: motor_left_hip_roll
+Motor ID 19: motor_left_hip_yaw
+Motor ID 20: motor_left_knee_pitch
+Motor ID 21: motor_left_ankle_pitch
+Motor ID 22: motor_left_ankle_roll
+Motor ID 23: motor_right_hip_pitch
+Motor ID 24: motor_right_hip_roll
+Motor ID 25: motor_right_hip_yaw
+Motor ID 26: motor_right_knee_pitch
+Motor ID 27: motor_right_ankle_pitch
+Motor ID 28: motor_right_ankle_roll
+Use IK config:  /home/si/Robot_GMR/GMR/general_motion_retargeting/ik_configs/smplx_to_x1.json
+Recording video to videos/xyber_x1_Leo.mp4
+Actual rendering FPS: 29.49
+Saved to ./motion/x1/pkl/Leo_v3_eblow_yaw-
+Video saved to videos/xyber_x1_Leo.mp4

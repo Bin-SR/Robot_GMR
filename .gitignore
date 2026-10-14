@@ -18,3 +18,5 @@ GVHMR/inputs/
 *.STL
 
 # Video files
+
+.vscode

@@ -166,7 +166,7 @@
                 -0.7071067810361598
             ]
         ],
-        "left_elbow_yaw": [
+        "left_elbow_pitch": [
             "left_elbow",
             0,
             10,
@@ -214,7 +214,7 @@
                 -0.49998495387210273
             ]
         ],
-        "right_elbow_yaw": [
+        "right_elbow_pitch": [
             "right_elbow",
             0,
             10,
@@ -392,7 +392,7 @@
                 -0.7071067810361598
             ]
         ],
-        "left_elbow_yaw": [
+        "left_elbow_pitch": [
             "left_elbow",
             10,
             5,
@@ -440,7 +440,7 @@
                 -0.49998495387210273
             ]
         ],
-        "right_elbow_yaw": [
+        "right_elbow_pitch": [
             "right_elbow",
             10,
             5,
