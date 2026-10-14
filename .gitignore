@@ -1,10 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*egg-info/
 
+# Motion and model data
 videos/
 motions/
 body_models/
-=======
-__pycache__/
-*egg-info/
+
+# Unitree RL
 unitree_rl_mjlab/
+
+# GVHMR inputs
 GVHMR/inputs/
+
+# Mesh files
 *.STL
+
+# Video files
